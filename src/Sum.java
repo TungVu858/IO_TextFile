@@ -9,7 +9,7 @@ public class Sum {
         System.out.println("Nhập đường dẫn : ");
         String link = sc.nextLine();
         readFile(link);
-        File file = new File(link);
+
     }
 
     public static void readFile(String path) {
